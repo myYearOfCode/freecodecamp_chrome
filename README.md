@@ -1,9 +1,9 @@
 # freecodecamp_chrome
-This is a chrome plugin to make the fcc interface more intuitive and informative.
+This is a chrome plugin to make the default fcc interface a little cleaner at first load.
 
-The learn.freecodecamp.com default login screen has the first section of the first certificate opened up. That is great when you are working on that section, but for the rest of your entire time on fcc you have to either scroll past that or close it and then open up whatever section you are working on in order to see the current lessons.
+The [FreeCodeCamp.com](https://learn.freecodecamp.com) default login screen has the first section of the first certificate opened up. That is a great feature when you are working on that section but for the rest of your time on fcc you have to either scroll past that or close it in order to see your current lessons above the fold.
 
-This plugin currently closes the first section, and in the future it will try to mark your completed sections and certificates in addition to opening up the farthest section you have gotten to.
+This plugin currently closes the first section, ~and in the future it will try to mark your completed sections and certificates in addition to opening up the farthest section you have gotten to.~ (the completion data is not available without the user spinning down the sections. Unless I can manipulate the react state with this extension I think it will just be limited to hiding the first section)
 
 This is the default behavior
 
